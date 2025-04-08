@@ -2,7 +2,7 @@
   "movies": [
     {
       "id": "1",
-      "poster" : "./assets/Images/Avengers-EndGame.jpg",
+      "poster": "/assets/Images/Avengers-EndGame.jpg",
       "title": "Avengers: Endgame",
       "genre": "Action",
       "duration": 181,
@@ -16,7 +16,7 @@
     },
     {
       "id": "2",
-      "poster" :"./assets/Images/The Lion King.jpg",
+      "poster": "/assets/Images/The Lion King.jpg",
       "title": "The Lion King",
       "genre": "Animation",
       "duration": 118,
@@ -30,7 +30,7 @@
     },
     {
       "id": "3",
-      "poster" :"./assets/Images/Parasite.jpg",
+      "poster": "/assets/Images/Parasite.jpg",
       "title": "Parasite",
       "genre": "Thriller",
       "duration": 132,
@@ -44,7 +44,7 @@
     },
     {
       "id": "4",
-      "poster" :"./assets/Images/The Killer.jpg",
+      "poster": "/assets/Images/The Killer.jpg",
       "title": "The killer",
       "genre": "Thriller",
       "duration": 125,
@@ -58,7 +58,7 @@
     },
     {
       "id": "5",
-      "poster":"./assets/Images/Good Bad Ugly.jpg",
+      "poster": "/assets/Images/Good Bad Ugly.jpg",
       "title": "Good Bad Ugly",
       "genre": "Thriller/Action",
       "duration": 125,
@@ -72,7 +72,7 @@
     },
     {
       "id": "6",
-      "poster":"./assets/Images/Veera Dheera Sooran.jpg",
+      "poster": "/assets/Images/Veera Dheera Sooran.jpg",
       "title": "Veera  Dheera Sooran",
       "genre": "Thriller/Action",
       "duration": 125,
@@ -86,7 +86,7 @@
     },
     {
       "id": "7",
-      "poster":"./assets/Images/Sweetheartt.jpg",
+      "poster": "/assets/Images/Sweetheartt.jpg",
       "title": "Sweetheart",
       "genre": "Love/Drama",
       "duration": 125,
@@ -100,7 +100,7 @@
     },
     {
       "id": "8",
-      "poster":"./assets/Images/Retro.jpg",
+      "poster": "/assets/Images/Retro.jpg",
       "title": "Retro",
       "genre": "Thriller/Action/Love",
       "duration": 125,
@@ -114,7 +114,7 @@
     },
     {
       "id": "9",
-      "poster":"./assets/Images/Sikhandar.jpg",
+      "poster": "/assets/Images/Sikhandar.jpg",
       "title": "Sikandar",
       "genre": "Drama/Action",
       "duration": 125,
@@ -125,63 +125,74 @@
         "2025-04-07T20:00:00"
       ],
       "rating": 7.2
+    },
+    {
+      "id": "10",
+      "poster": "/assets/Images/Empuraan.jpeg",
+      "title": "Empuraan",
+      "genre": "Crime/Action/Thriller",
+      "duration": 125,
+      "language": "Telungu",
+      "showtimes": [
+        "2025-04-07T12:00:00",
+        "2025-04-07T16:00:00",
+        "2025-04-07T20:00:00"
+      ],
+      "rating": 7.4
     }
   ],
-
-
-
-
-
-
-
   "bookings": [
     {
-      "id": "1",
-      "movieId": "1",
-      "userId": "201",
-      "seats": [
-        "A1",
-        "A2"
-      ],
-      "showtime": "2025-04-07T10:00:00"
-    },
-    {
-      "id": "2",
+      "id": "4aff",
       "movieId": "2",
-      "userId": "202",
+      "movieTitle": "The Lion King",
+      "time": "PVR: Heritage RSL ECR - 15:00:00",
       "seats": [
-        "B1",
-        "B2",
-        "B3"
+        "A3"
       ],
-      "showtime": "2025-04-07T11:00:00"
+      "user": "Guest"
     },
     {
-      "id": "3",
+      "id": "7f88",
       "movieId": "3",
-      "userId": "203",
+      "movieTitle": "Parasite",
+      "time": "INOX: Marina Mall - 16:00:00",
       "seats": [
-        "C1",
-        "C2"
+        "A4"
       ],
-      "showtime": "2025-04-07T12:00:00"
+      "user": "Guest"
     },
     {
-      "id": "4",
-      "movieId": "4",
-      "userId": "204",
+      "id": "636b",
+      "movieId": "3",
+      "movieTitle": "Parasite",
+      "time": "PVR: Heritage RSL ECR - 16:00:00",
       "seats": [
-        "D1",
-        "D2"
+        "A3"
       ],
-      "showtime": "2025-04-07T12:00:00"
+      "user": "Guest"
+    },
+    {
+      "id": "b335",
+      "movieId": "3",
+      "movieTitle": "Parasite",
+      "time": "PVR: Heritage RSL ECR - 12:00:00",
+      "seats": [
+        "A3"
+      ],
+      "user": "Guest"
+    },
+    {
+      "id": "67cf",
+      "movieId": "1",
+      "movieTitle": "Avengers: Endgame",
+      "time": "INOX: Marina Mall - 10:00:00",
+      "seats": [
+        "A3"
+      ],
+      "user": "Guest"
     }
   ],
-
-
-
-
-
   "users": [
     {
       "id": "201",

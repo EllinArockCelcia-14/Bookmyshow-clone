@@ -1,32 +1,26 @@
 // src/App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Link } from 'react-router-dom'; // or the appropriate library
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import MovieDetails from './pages/MovieDetails';
 import Booking from './pages/Booking';
-import SignIn from './components/SignIn';
-import Profile from './components/Profile';
+import SignIn from './pages/SignIn';
+import Footer from './components/Footer';
+import Showtimes from './pages/Showtimes';
 
 const App = () => {
   return (
     <Router>
-      <Navbar />
-      <nav>
-                
-                <Link to="/signin">Sign-In</Link>
-                <Link to="/profile">Profile</Link>
-            </nav>
-      <div style={{ padding: '40px' }}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/signin" element={<SignIn />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/movie/:id" element={<MovieDetails />} />
-          <Route path="/booking/:id" element={<Booking />} />
-        </Routes>
-      </div>
+      <Navbar /> {/* Render once here */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/movie/:id" element={<MovieDetails />} />
+        <Route path="/booking/:id" element={<Booking />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/showtimes/:id" element={<Showtimes />} />
+      </Routes>
+      <Footer/>
     </Router>
   );
 };
