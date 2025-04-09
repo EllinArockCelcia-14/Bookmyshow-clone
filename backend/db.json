@@ -20,7 +20,7 @@
       "poster": "/assets/Images/The Lion King.jpg",
       "title": "The Lion King",
       "genre": "Animation",
-      "category":"Movies",
+      "category": "Movies",
       "duration": 118,
       "language": "English",
       "showtimes": [
@@ -35,7 +35,7 @@
       "poster": "/assets/Images/Parasite.jpg",
       "title": "Parasite",
       "genre": "Thriller",
-      "category":"Movies",
+      "category": "Movies",
       "duration": 132,
       "language": "Korean",
       "showtimes": [
@@ -50,7 +50,7 @@
       "poster": "/assets/Images/The Killer.jpg",
       "title": "The killer",
       "genre": "Thriller",
-      "category":"Movies",
+      "category": "Movies",
       "duration": 125,
       "language": "Korean",
       "showtimes": [
@@ -65,7 +65,7 @@
       "poster": "/assets/Images/Good Bad Ugly.jpg",
       "title": "Good Bad Ugly",
       "genre": "Thriller/Action",
-      "category":"Movies",
+      "category": "Movies",
       "duration": 125,
       "language": "Tamil",
       "showtimes": [
@@ -80,7 +80,7 @@
       "poster": "/assets/Images/Veera Dheera Sooran.jpg",
       "title": "Veera  Dheera Sooran",
       "genre": "Thriller/Action",
-      "category":"Movies",
+      "category": "Movies",
       "duration": 125,
       "language": "Tamil",
       "showtimes": [
@@ -95,7 +95,7 @@
       "poster": "/assets/Images/Sweetheartt.jpg",
       "title": "Sweetheart",
       "genre": "Love/Drama",
-      "category":"Movies",
+      "category": "Movies",
       "duration": 125,
       "language": "Tamil",
       "showtimes": [
@@ -110,7 +110,7 @@
       "poster": "/assets/Images/Retro.jpg",
       "title": "Retro",
       "genre": "Thriller/Action/Love",
-      "category":"Movies",
+      "category": "Movies",
       "duration": 125,
       "language": "Tamil",
       "showtimes": [
@@ -125,7 +125,7 @@
       "poster": "/assets/Images/Sikhandar.jpg",
       "title": "Sikandar",
       "genre": "Drama/Action",
-      "category":"Movies",
+      "category": "Movies",
       "duration": 125,
       "language": "Hindi",
       "showtimes": [
@@ -140,7 +140,7 @@
       "poster": "/assets/Images/Empuraan.jpeg",
       "title": "Empuraan",
       "genre": "Crime/Action/Thriller",
-      "category":"Movies",
+      "category": "Movies",
       "duration": 125,
       "language": "Telungu",
       "showtimes": [
@@ -149,8 +149,191 @@
         "2025-04-07T20:00:00"
       ],
       "rating": 7.4
+    },
+    {
+      "id": "11",
+      "poster": "/assets/Images/MusicConcert.jpeg",
+      "title": "Live Music Night",
+      "genre": "Music",
+      "category": "Events",
+      "duration": 90,
+      "language": "English",
+      "showtimes": [
+        "2025-04-07T20:00:00"
+      ],
+      "rating": 7.8
+    },
+    {
+      "id": "12",
+      "poster": "/assets/Images/StandUpComedy.jpeg",
+      "title": "StandUp Comedy",
+      "genre": "Entertainment/Comedy",
+      "category": "Events",
+      "duration": 90,
+      "language": "English",
+      "showtimes": [
+        "2025-04-07T20:00:00"
+      ],
+      "rating": 8.2
+    },
+    {
+      "id": "13",
+      "poster": "/assets/Images/TheatrePlay.jpeg",
+      "title": "TheatrePlay",
+      "genre": "Entertainment",
+      "category": "Events",
+      "duration": 90,
+      "language": "English",
+      "showtimes": [
+        "2025-04-07T20:00:00"
+      ],
+      "rating": 8.6
+    },
+    {
+      "id": "14",
+      "poster": "/assets/Images/Workshop.jpeg",
+      "title": "Workshops",
+      "genre": "Education",
+      "category": "Events",
+      "duration": 90,
+      "language": "English",
+      "showtimes": [
+        "2025-04-07T20:00:00"
+      ],
+      "rating": 8.5
+    },
+    {
+      "id": "15",
+      "poster": "/assets/Images/Royal.jpeg",
+      "title": "Royal Betrayal ",
+      "genre": "Historical/Drama",
+      "category": "Plays",
+      "duration": 90,
+      "language": "English",
+      "showtimes": [
+        "2025-04-07T20:00:00"
+      ],
+      "rating": 7.2
+    },
+    {
+      "id": "16",
+      "poster": "/assets/Images/House.jpeg",
+      "title": "House Of Lies ",
+      "genre": "Suspense/Drama",
+      "category": "Plays",
+      "duration": 90,
+      "language": "English",
+      "showtimes": [
+        "2025-04-07T20:00:00"
+      ],
+      "rating": 8.4
+    },
+    {
+      "id": "17",
+      "poster": "/assets/Images/Shadow.jpeg",
+      "title": "Shadows of the Past",
+      "genre": "Romantic/Tragedy",
+      "category": "Plays",
+      "duration": 90,
+      "language": "English",
+      "showtimes": [
+        "2025-04-07T20:00:00"
+      ],
+      "rating": 8.9
+    },
+    {
+      "id": "18",
+      "poster": "/assets/Images/CSk.jpeg",
+      "title": "CSK Vs MI",
+      "genre": "Cricket/T20 Match",
+      "category": "Sports",
+      "duration": 90,
+      "language": "Tamil",
+      "showtimes": [
+        "2025-04-07T20:14:30"
+      ],
+      "rating": 9.5
+    },
+    {
+      "id": "19",
+      "poster": "/assets/Images/Marathon.jpeg",
+      "title": "Chennai Marathon 2025",
+      "genre": "Running/Marathon",
+      "category": "Sports",
+      "duration": 90,
+      "language": "Tamil",
+      "showtimes": [
+        "2025-04-07T20:09:30"
+      ],
+      "rating": 8.8
+    },
+    {
+      "id": "20",
+      "poster": "/assets/Images/Cycle.jpeg",
+      "title": "Cyclothon 2025 – Ride for Nature ",
+      "genre": "Cycling/Endurance",
+      "category": "Sports",
+      "duration": 90,
+      "language": "Tamil",
+      "showtimes": [
+        "2025-04-07T20:09:30"
+      ],
+      "rating": 8.2
+    },
+    {
+      "id": "21",
+      "poster": "/assets/Images/Paint.jpeg",
+      "title": "Paint and Sip",
+      "genre": "Art/Leisure",
+      "category": "Activities",
+      "duration": 90,
+      "language": "English",
+      "showtimes": ["2025-04-07T18:00:00"],
+      "rating": 8.3
+    },
+    {
+      "id": "22",
+      "poster": "/assets/Images/Treasure.jpeg",
+      "title": "City Treasure Hunt",
+      "genre": "Adventure/Team Activity",
+      "category": "Activities",
+      "duration": 120,
+      "language": "English",
+      "showtimes": ["2025-04-07T10:00:00"],
+      "rating": 7.9
+    },
+    {
+      "id": "23",
+      "poster": "/assets/Images/Pottery.jpeg",
+      "title": "Pottery Workshop",
+      "genre": "Creative/Hands-on",
+      "category": "Activities",
+      "duration": 90,
+      "language": "English",
+      "showtimes": ["2025-04-07T15:00:00"],
+      "rating": 8.6
+    },
+    {
+      "id": "24",
+      "poster": "/assets/Images/Zumba.jpeg",
+      "title": "Zumba Dance Session",
+      "genre": "Fitness/Dance",
+      "category": "Activities",
+      "duration": 60,
+      "language": "English",
+      "showtimes": ["2025-04-07T07:30:00"],
+      "rating": 8.1
     }
+    
+    
   ],
+
+
+
+
+
+
+
   "bookings": [
     {
       "id": "4aff",
@@ -209,8 +392,22 @@
       "time": "INOX: Marina Mall - 14:00:00",
       "seats": [],
       "user": "Guest"
+    },
+    {
+      "id": "7d94",
+      "movieId": "1",
+      "movieTitle": "Avengers: Endgame",
+      "time": "INOX: Marina Mall - 18:00:00",
+      "seats": [],
+      "user": "Guest"
     }
   ],
+
+
+
+
+
+
   "users": [
     {
       "id": "201",
