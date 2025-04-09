@@ -3,7 +3,7 @@ import React from 'react';
 
 const categories = ['Movies', 'Events', 'Plays', 'Sports', 'Activities'];
 
-const CategoryMenu = () => {
+const CategoryMenu = ({ selectedCategory, setSelectedCategory }) => {
   return (
     <div style={{
       display: 'flex',
@@ -15,9 +15,11 @@ const CategoryMenu = () => {
       {categories.map((item, index) => (
         <button
           key={index}
+          onClick={() => setSelectedCategory(item)}
           style={{
             padding: '10px 20px',
-            backgroundColor: '#eee',
+            backgroundColor: selectedCategory === item ? 'red' : '#eee',
+            color: selectedCategory === item ? 'white' : 'black',
             border: '1px solid #ccc',
             borderRadius: '20px',
             cursor: 'pointer',

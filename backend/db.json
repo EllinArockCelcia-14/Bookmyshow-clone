@@ -5,6 +5,7 @@
       "poster": "/assets/Images/Avengers-EndGame.jpg",
       "title": "Avengers: Endgame",
       "genre": "Action",
+      "category": "Movies",
       "duration": 181,
       "language": "English",
       "showtimes": [
@@ -19,6 +20,7 @@
       "poster": "/assets/Images/The Lion King.jpg",
       "title": "The Lion King",
       "genre": "Animation",
+      "category":"Movies",
       "duration": 118,
       "language": "English",
       "showtimes": [
@@ -33,6 +35,7 @@
       "poster": "/assets/Images/Parasite.jpg",
       "title": "Parasite",
       "genre": "Thriller",
+      "category":"Movies",
       "duration": 132,
       "language": "Korean",
       "showtimes": [
@@ -47,6 +50,7 @@
       "poster": "/assets/Images/The Killer.jpg",
       "title": "The killer",
       "genre": "Thriller",
+      "category":"Movies",
       "duration": 125,
       "language": "Korean",
       "showtimes": [
@@ -61,6 +65,7 @@
       "poster": "/assets/Images/Good Bad Ugly.jpg",
       "title": "Good Bad Ugly",
       "genre": "Thriller/Action",
+      "category":"Movies",
       "duration": 125,
       "language": "Tamil",
       "showtimes": [
@@ -75,6 +80,7 @@
       "poster": "/assets/Images/Veera Dheera Sooran.jpg",
       "title": "Veera  Dheera Sooran",
       "genre": "Thriller/Action",
+      "category":"Movies",
       "duration": 125,
       "language": "Tamil",
       "showtimes": [
@@ -89,6 +95,7 @@
       "poster": "/assets/Images/Sweetheartt.jpg",
       "title": "Sweetheart",
       "genre": "Love/Drama",
+      "category":"Movies",
       "duration": 125,
       "language": "Tamil",
       "showtimes": [
@@ -103,6 +110,7 @@
       "poster": "/assets/Images/Retro.jpg",
       "title": "Retro",
       "genre": "Thriller/Action/Love",
+      "category":"Movies",
       "duration": 125,
       "language": "Tamil",
       "showtimes": [
@@ -117,6 +125,7 @@
       "poster": "/assets/Images/Sikhandar.jpg",
       "title": "Sikandar",
       "genre": "Drama/Action",
+      "category":"Movies",
       "duration": 125,
       "language": "Hindi",
       "showtimes": [
@@ -131,6 +140,7 @@
       "poster": "/assets/Images/Empuraan.jpeg",
       "title": "Empuraan",
       "genre": "Crime/Action/Thriller",
+      "category":"Movies",
       "duration": 125,
       "language": "Telungu",
       "showtimes": [
@@ -190,6 +200,14 @@
       "seats": [
         "A3"
       ],
+      "user": "Guest"
+    },
+    {
+      "id": "5b24",
+      "movieId": "1",
+      "movieTitle": "Avengers: Endgame",
+      "time": "INOX: Marina Mall - 14:00:00",
+      "seats": [],
       "user": "Guest"
     }
   ],

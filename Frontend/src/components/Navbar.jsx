@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Sidebar from './Sidebar';
 
 const Navbar = () => {
   const navigate = useNavigate();
   const [selectedCity, setSelectedCity] = useState('Chennai');
   const [showCities, setShowCities] = useState(false);
   const [user, setUser] = useState(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false); // ⬅️ Sidebar toggle
+
 
   const cities = ['Chennai', 'Mumbai', 'Delhi', 'Bangalore', 'Hyderabad'];
 
@@ -80,9 +83,16 @@ const Navbar = () => {
             Sign In
           </button>
         )}
-        <div style={{ fontSize: '20px', cursor: 'pointer' }}>☰</div>
-      </div>
+        <div
+            style={{ fontSize: '20px', cursor: 'pointer' }}
+            onClick={() => setSidebarOpen(true)} // ⬅️ Toggle sidebar on click
+          >
+            ☰
+          </div>
+  </div>
+  <Sidebar isOpen={sidebarOpen} setIsOpen={setSidebarOpen} />
     </nav>
+    
   );
 };
 
